@@ -35,5 +35,8 @@ Commits and pushes the local repo to Github.
     curl -i -H "Authorization: token <personal access token>" https://api.github.com/user/repos
 
 
+### Inspired by [KalleHallden](https://github.com/KalleHallden/ProjectInitializationAutomation).
+
+
 
 
