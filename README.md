@@ -18,3 +18,22 @@ Commits and pushes the local repo to Github.
 ### Usage:
 
     To run the script type in "create <name of folder>"
+
+
+### Other API calls:
+
+    Create Github repo
+
+    curl -i -H "Authorization: token <personal access token>" -d '{"name": "<repo name>", "auto_init": false, "private": false}' https://api.github.com/user/repos
+
+    Delete Github repo
+
+    curl -X DELETE -H 'Authorization: token <personal access token>' https://api.github.com/repos/<username>/<repo>
+
+    List Github repo
+
+    curl -i -H "Authorization: token <personal access token>" https://api.github.com/user/repos
+
+
+
+
